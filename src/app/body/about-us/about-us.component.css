@@ -1,3 +1,8 @@
+#au1{
+  background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=e009854117&attid=0.1&permmsgid=msg-f:1644587708755114005&th=16d2bfcec6527815&view=att&disp=safe&realattid=f_k0ihh54q0') ;
+  background-repeat:  no-repeat;
+  width: 100%;
+}
 #second {
   padding: 70px 12px 50px 20px;
   font: 4%;
@@ -8,9 +13,9 @@
 #second {
   margin-top: 12%;
   margin-left: 8%;
-  border: 4px solid white;
   width: 30%;
-  background: white;
+  font-style: italic;
+ 
 }
 
 
@@ -157,11 +162,9 @@ h1 {
 
 
 #image {
-  background-image: url("/assets/images/typewriter.jpg");
-  background-attachment: fixed;
-  background-position: center;
+  background-image: url("https://image.freepik.com/free-vector/typing-concept-illustration_114360-363.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-attachment: fixed;
 }
 
 
@@ -198,10 +201,14 @@ h2 {
 #au2 {
   margin-top: 15%;
   margin-left: 10%;
+ 
+
+  
 }
 
 #au3 {
   margin-left: 60%;
+
 }
 
 .underlined {
@@ -231,7 +238,6 @@ h2 {
 
 .underlined--offset {
   background-position: 0 0.2em;
-  box-shadow: inset 0 -0.5em 0 0 white;
 }
 
 .underlined--gradient {
@@ -611,8 +617,125 @@ h4 {
   font-weight: bold
 }
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:210px) and (max-width:746px) {
   #second {
     margin-left: 10%;
+    font-style: italic;
+    font-size: 12px;
+    width: 60%;
+  }
+  #au2{
+    width: 60%;
+  }
+  #first h2{
+    font-size: 18px;
+  }
+  #au2 h1{
+    font-size: 24px;
+  }
+  #au3{
+   margin-left: 10%; 
+    width:70%;
+    text-align: left;
+  }
+  #image{
+    width: 100%;
   }
 }
+@media screen and (min-width:1200px) {
+  #second {
+    margin-left: 10%;
+    width: 30%;
+  }
+  #au2{
+    width: 30%;
+  }
+}
+#timeline {
+  display: flex;
+  background-color: white;
+}
+#timeline:hover .tl-item {
+  width: 23.3333%;
+}
+.tl-item {
+  transform: translate3d(0, 0, 0);
+  position: relative;
+  width: 25%;
+  height: 100vh;
+  min-height: 600px;
+  color: #fff;
+  overflow: hidden;
+  transition: width 0.5s ease;
+}
+.tl-item:before, .tl-item:after {
+  transform: translate3d(0, 0, 0);
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.tl-item:after {
+  background: rgba(3, 22, 37, 0.85);
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+.tl-item:before {
+  
+  z-index: 1;
+  opacity: 0;
+  transform: translate3d(0, 0, 0) translateY(50%);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.tl-item:hover {
+  width: 90% !important;
+}
+.tl-item:hover:after {
+  opacity: 0;
+}
+.tl-item:hover:before {
+  opacity: 1;
+  transform: translate3d(0, 0, 0) translateY(0);
+  transition: opacity 1s ease, transform 1s ease 0.25s;
+}
+.tl-item:hover .tl-content {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.75s ease 0.5s;
+}
+.tl-item:hover .tl-bg {
+  filter: grayscale(0);
+}
+.tl-content {
+  transform: translate3d(0, 0, 0) translateY(25px);
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  margin: 0 1.618em;
+  top: 65%;
+  opacity: 0;
+}
+
+ .tl-content p {
+  font-size: 20px;
+  background: linear-gradient(to right, blue, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+.tl-bg {
+  transform: translate3d(0, 0, 0);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-position: center center;
+  transition: filter 0.5s ease;
+  filter: grayscale(100%);
+}
+
+

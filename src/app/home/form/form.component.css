@@ -171,10 +171,10 @@ ul {
   }
 }
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:240px) {
   input, select {
-    padding: 3px 0;
-    margin-bottom: 1%;
+    padding: 2%;
+    margin-bottom: 0%;
     font-size: 8px;
   }
 
@@ -186,29 +186,39 @@ ul {
   }
 
   .box {
-    width: 40vh;
-    height: 78vh;
+    width: 65%;
+    height: 50%;
     font-weight: 400;
     margin-right: 2%;
     border: solid;
     border-color: blue;
     margin-top: 10%;
-    margin-left: 6%;
+    margin-left: 10%;
   }
 
-  h2 {
-    line-height: 1.8;
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-    color: #222;
-    font-size: 15px;
-  }
+  
 
   .title {
-    font-size: 13px;
+    font-size: 10px;
     font-weight: bold;
   }
+  .submit {
+    width: 5em;
+    height: 3em;
+    padding: 0%;
+    font-size: 8px;
+    margin: 1.5%;
+    text-align: center;
+    margin-left: 38%;
+  }
+  #textdeco {
+    background: linear-gradient(to right, blue, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 93%;
+  }
+  
 }
 
 @media screen and (min-width:768px) {
@@ -244,6 +254,15 @@ ul {
     margin-top: 10%;
     margin-left: 10%;
   }
+  .submit {
+    width: 5em;
+    height: 3em;
+    padding: 2%;
+    font-size: 10px;
+    margin: 3%;
+    text-align: center;
+    margin-left: 30%;
+  }
 
   h2 {
     line-height: 1.8;
@@ -264,6 +283,19 @@ ul {
   input, select {
     padding: 5px 0;
     margin-bottom: 2%;
-    font-size: 8px;
+    margin-left: 20%;
+    font-size: 10px;
+  }
+  .title {
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 20%;
+  }
+  #textdeco {
+    background: linear-gradient(to right, blue, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 100%;
   }
 }

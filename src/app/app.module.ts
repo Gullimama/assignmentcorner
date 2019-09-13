@@ -1,5 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
+
+
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -11,6 +15,11 @@ import { ContactUsComponent } from './body/contact-us/contact-us.component';
 import { HomeComponent } from './body/home/home.component';
 import { FormComponent } from './home/form/form.component';
 import { ScriptComponent } from './home/script/script.component';
+import { FormService } from './home/form/form.service';
+import { AlertModule } from 'ngx-alerts';
+import { HttpClientModule } from '@angular/common/http';
+
+
 
 @NgModule({
   declarations: [
@@ -26,9 +35,13 @@ import { ScriptComponent } from './home/script/script.component';
     ScriptComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [FormService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+}
+

@@ -11,5 +11,6 @@ export class ScriptComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  
 }
+

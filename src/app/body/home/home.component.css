@@ -1,25 +1,82 @@
-@media screen and (min-width:320px) {
+
+@media screen and (min-width:210px) and (max-width: 746px) {
   #home {
-    margin-top: 11%;
+	width : 100%;
+	/* max-height: 600px; */
+	background-image:		
+	url('https://mail.google.com/mail/u/0?ui=2&ik=e009854117&attid=0.1&permmsgid=msg-f:1644549508670615271&th=16d29d109fdaeee7&view=att&disp=safe&realattid=f_k0hvqecx0');
+    background-repeat: no-repeat;
   }
+  
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:747px) and (max-width: 1200px) {
   #home {
-    margin-top: 6%;
+	height: 100%;
+	/* max-height: 600px; */
+	background-color: hsla(200,40%,30%,.4);
+	background-image:		
+    url('/assets/images/landimage.jpg'),
+    url('/assets/images/landimage.jpg'),
+    url('/assets/images/landimage.jpg'),
+    url('/assets/images/landimage.jpg'),
+    url('/assets/images/landimage.jpg'),
+    url('/assets/images/landimage.jpg');
+	background-repeat: repeat-x;
+	background-position: 
+		0 20%,
+		0 100%,
+		0 50%,
+		0 100%,
+		0 0;
+	background-size: 
+		100%,
+		100%,
+		100% 100%,
+		100%,
+		100% 100%;
+	animation: 50s para infinite linear;
   }
+
+  
 }
 
 @media screen and (min-width:1200px) {
   #home {
-    margin-top: 4%;
+	height: 100%;
+	/* max-height: 600px; */
+	background-color: hsla(200,40%,30%,.4);
+	background-image:		
+    url('/assets/images/landimage.jpg'),
+    url('/assets/images/landimage.jpg'),
+    url('/assets/images/landimage.jpg'),
+    url('/assets/images/landimage.jpg'),
+    url('/assets/images/landimage.jpg'),
+    url('/assets/images/landimage.jpg');
+	background-repeat: repeat-x;
+	background-position: 
+		0 20%,
+		0 100%,
+		0 50%,
+		0 100%,
+		0 0;
+	background-size: 
+		100%,
+		100%,
+		100% 100%,
+		100%,
+		100% 100%;
+	animation: 50s para infinite linear;
   }
 }
+@keyframes para {
+	100% {
+		background-position: 
+			-5000px 20%,
+			-800px 95%,
+			500px 50%,
+			1000px 100%,
+			400px 0;
+		}
+	}
 
-section {
-  background-attachment: fixed;
-  background-image: url("/assets/images/office.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}

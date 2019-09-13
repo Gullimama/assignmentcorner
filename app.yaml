@@ -1,0 +1,9 @@
+runtime: nodejs8
+handlers:
+- url: /
+  secure: always
+  static_files: dist/assignmentCorner/index.html
+  upload: dist/assignmentCorner/index.html
+- url: /
+  static_dir: dist/assignmentCorner
+  secure: always

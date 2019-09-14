@@ -5,7 +5,8 @@
 	/* max-height: 600px; */
 	background-image:		
 	url('https://mail.google.com/mail/u/0?ui=2&ik=e009854117&attid=0.1&permmsgid=msg-f:1644549508670615271&th=16d29d109fdaeee7&view=att&disp=safe&realattid=f_k0hvqecx0');
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	
   }
   
 }
@@ -13,29 +14,13 @@
 @media screen and (min-width:747px) and (max-width: 1200px) {
   #home {
 	height: 100%;
+	width: 100%;
 	/* max-height: 600px; */
-	background-color: hsla(200,40%,30%,.4);
 	background-image:		
-    url('/assets/images/landimage.jpg'),
-    url('/assets/images/landimage.jpg'),
-    url('/assets/images/landimage.jpg'),
-    url('/assets/images/landimage.jpg'),
-    url('/assets/images/landimage.jpg'),
-    url('/assets/images/landimage.jpg');
-	background-repeat: repeat-x;
-	background-position: 
-		0 20%,
-		0 100%,
-		0 50%,
-		0 100%,
-		0 0;
-	background-size: 
-		100%,
-		100%,
-		100% 100%,
-		100%,
-		100% 100%;
-	animation: 50s para infinite linear;
+	url('https://mail.google.com/mail/u/0?ui=2&ik=e009854117&attid=0.1&permmsgid=msg-f:1644633834393918229&th=16d2e9c23ca35b15&view=att&disp=safe&realattid=f_k0j7nwwg0');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 50%;
   }
 
   
@@ -43,30 +28,16 @@
 
 @media screen and (min-width:1200px) {
   #home {
+	  margin-top: 3%;
 	height: 100%;
+	width: 100%;
 	/* max-height: 600px; */
-	background-color: hsla(200,40%,30%,.4);
 	background-image:		
-    url('/assets/images/landimage.jpg'),
-    url('/assets/images/landimage.jpg'),
-    url('/assets/images/landimage.jpg'),
-    url('/assets/images/landimage.jpg'),
-    url('/assets/images/landimage.jpg'),
-    url('/assets/images/landimage.jpg');
-	background-repeat: repeat-x;
-	background-position: 
-		0 20%,
-		0 100%,
-		0 50%,
-		0 100%,
-		0 0;
-	background-size: 
-		100%,
-		100%,
-		100% 100%,
-		100%,
-		100% 100%;
-	animation: 50s para infinite linear;
+	url('https://mail.google.com/mail/u/0?ui=2&ik=e009854117&attid=0.1&permmsgid=msg-f:1644633834393918229&th=16d2e9c23ca35b15&view=att&disp=safe&realattid=f_k0j7nwwg0');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 50%;
+	
   }
 }
 @keyframes para {

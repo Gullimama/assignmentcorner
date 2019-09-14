@@ -157,11 +157,12 @@ li {
 
 @media screen and (min-width:210px) {
   .logo{
-    margin: 8%;
+    margin: 4%;
     height: 10%;
     width: 35%;
+    padding: 1%;
     background-color: aqua; 
-    padding: 2%;
+    border-radius: 12px;
   }
 
   .read-more-state {
@@ -195,8 +196,8 @@ li {
     padding: 0 .5em;
     font-size: .9em;
     line-height: 2;
-    border-radius: .25em;
-    margin-left: 2%;
+    border-radius: 12px;
+    margin-left: 5%;
     background-color: aqua;
   }
   
@@ -208,7 +209,7 @@ li {
   h3{
     width: 70%;
     margin: 2.5%;
-    font-size: 18px;
+    font-size: 15px;
   }
 
   p {
@@ -240,6 +241,22 @@ li {
   } 
   .text {
     font-size: 13px;
+  }
+  .logo{
+    font-size: 20px;
+    width: 16%;
+    height: 4%;
+    border-radius: 12px;
+    background-color: white;
+  }
+  .read-more-trigger {
+    border-radius: 12px;
+    width: 10%;
+    height: 8%;
+  }
+  span{
+    font-size: 50px;
+    color: blue;
   }
 
 }

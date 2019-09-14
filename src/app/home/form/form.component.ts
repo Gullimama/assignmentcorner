@@ -52,5 +52,5 @@ Http.onreadystatechange=function(){
     
     var chanage = btoa(encode[i])  
   }
-  console.log(title,date,email,number) 
+  console.log(title,date,email,number)  
 }

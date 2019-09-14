@@ -1,4 +1,4 @@
-#au1{
+#auo1{
   background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=e009854117&attid=0.1&permmsgid=msg-f:1644587708755114005&th=16d2bfcec6527815&view=att&disp=safe&realattid=f_k0ihh54q0') ;
   background-repeat:  no-repeat;
   width: 100%;
@@ -15,7 +15,6 @@
   margin-left: 8%;
   width: 30%;
   font-style: italic;
- 
 }
 
 
@@ -194,7 +193,7 @@ h2 {
   color: #00BCD4;
 }
 
-#au1 {
+#auo1 {
   margin-left: 2%;
 }
 
@@ -621,11 +620,13 @@ h4 {
   #second {
     margin-left: 10%;
     font-style: italic;
-    font-size: 12px;
-    width: 60%;
+    font-size: 15px;
+    width: 50%;
+    background-color: white;
   }
   #au2{
     width: 60%;
+    margin-bottom: 2%;
   }
   #first h2{
     font-size: 18px;
@@ -664,9 +665,10 @@ h4 {
   width: 25%;
   height: 100vh;
   min-height: 600px;
-  color: #fff;
+  color: black;
   overflow: hidden;
   transition: width 0.5s ease;
+  margin: 2%;
 }
 .tl-item:before, .tl-item:after {
   transform: translate3d(0, 0, 0);

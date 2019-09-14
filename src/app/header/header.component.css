@@ -30,6 +30,22 @@
    padding: 10px 7%;
    font-size: 19px;
  } 
+ span{
+  display: none;
+}
+}
+@media screen and (min-width:1200px){
+  .navbar{
+    overflow: hidden;
+    background-color: white;
+    border-radius: 0%;
+    margin-bottom: 80%;
+    top: 0;
+  }
+  .navbar a {
+    padding: 12px 10%;
+    font-size: 19px;
+  } 
 }
 
 

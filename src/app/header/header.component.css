@@ -27,8 +27,8 @@
 }
 @media screen and (min-width: 220px) and (max-width: 746px){
  .navbar a {
-   padding: 10px 7%;
-   font-size: 19px;
+   padding: 10px 8%;
+   font-size: 21px;
  } 
  span{
   display: none;

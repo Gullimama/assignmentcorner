@@ -36,7 +36,7 @@ h2 {
 @media screen and (max-width:678px){
   
   #bkimg1 {
-    background-image: url("https://image.freepik.com/free-vector/cogwheels-businesspeople-working_1262-19228.jpg");
+    background-image: url("/assets/images/blog.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

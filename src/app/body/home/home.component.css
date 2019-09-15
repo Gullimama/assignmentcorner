@@ -4,7 +4,7 @@
 	width : 100%;
 	/* max-height: 600px; */
 	background-image:		
-	url('https://mail.google.com/mail/u/0?ui=2&ik=e009854117&attid=0.1&permmsgid=msg-f:1644549508670615271&th=16d29d109fdaeee7&view=att&disp=safe&realattid=f_k0hvqecx0');
+	url('/assets/images/home.png');
 	background-repeat: no-repeat;
 	
   }
@@ -17,7 +17,7 @@
 	width: 100%;
 	/* max-height: 600px; */
 	background-image:		
-	url('https://mail.google.com/mail/u/0?ui=2&ik=e009854117&attid=0.1&permmsgid=msg-f:1644633834393918229&th=16d2e9c23ca35b15&view=att&disp=safe&realattid=f_k0j7nwwg0');
+	url('/assets/images/home1.png');
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: 50%;
@@ -33,7 +33,7 @@
 	width: 100%;
 	/* max-height: 600px; */
 	background-image:		
-	url('https://mail.google.com/mail/u/0?ui=2&ik=e009854117&attid=0.1&permmsgid=msg-f:1644633834393918229&th=16d2e9c23ca35b15&view=att&disp=safe&realattid=f_k0j7nwwg0');
+	url('/assets/images/home1.png');
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: 50%;

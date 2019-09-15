@@ -1,5 +1,5 @@
 #auo1{
-  background-image: url('https://mail.google.com/mail/u/0?ui=2&ik=e009854117&attid=0.1&permmsgid=msg-f:1644587708755114005&th=16d2bfcec6527815&view=att&disp=safe&realattid=f_k0ihh54q0') ;
+  background-image: url('/assets/images/background.png') ;
   background-repeat:  no-repeat;
   width: 100%;
 }
@@ -161,7 +161,7 @@ h1 {
 
 
 #image {
-  background-image: url("https://image.freepik.com/free-vector/typing-concept-illustration_114360-363.jpg");
+  background-image: url("/assets/images/typing.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }

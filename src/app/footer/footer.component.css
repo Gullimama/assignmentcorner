@@ -1,67 +1,71 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
-
-#box{
-  position: relative; 
-  float:right;  
- height: 100vh;
- width: 60%;
- background-image: url('/assets/images/footer.jpg');
-  background-color: white;
-}
-#contain{
-  margin: 5%;
-}
-#box2{
- position: absolute;
- margin-top: 12%;
- height: 100%;
- width: 75%;
- background-color: black;
-}
-#text{
-  margin: 6%;
-  font-weight: bold;
-  color: white;
-}
-#text1{
-  font-weight: bold;
-  color: white;
-}
-#bigtext{
-  font-family: Playfair Display Black;
-  font-size: 200px;
-  font-weight: bold;
-  color: white;
-}
-#copyright{
-  font-size: 15px;
-  color: white;
+#box {
+    position: relative;
+    float: right;
+    height: 100vh;
+    width: 60%;
+    background-image: url('/assets/images/footer.jpg');
+    background-color: white;
 }
 
-@media screen and (min-width: 320px) and (max-width:746px){
-  #box{
-   height: 50vh;
-  }
-  #box2{
-   width: 75%;
-   height: 100%;
-  }
-  #phone{
-    margin-bottom: 5%;
-  }
-  #text1{
-    font-size: 10px;
-  }
-  #text{
-    font-size: 10px;
-    margin-bottom: 0%;
-    margin-left: 2%;
-  }
-  #bigtext{
-    font-size: 60px;
-  }
-  #copyright{
-    font-size: 6px;
-  }
- 
+#contain {
+    margin: 5%;
+}
+
+#box2 {
+    position: absolute;
+    margin-top: 12%;
+    height: 100%;
+    width: 75%;
+    background-color: black;
+}
+
+#text {
+    margin: 6%;
+    font-weight: bold;
+    color: white;
+}
+
+#text1 {
+    font-weight: bold;
+    color: white;
+}
+
+#bigtext {
+    font-family: Playfair Display Black;
+    font-size: 200px;
+    font-weight: bold;
+    color: white;
+}
+
+#copyright {
+    font-size: 15px;
+    color: white;
+}
+
+@media screen and (min-width: 320px) and (max-width:746px) {
+    #box {
+        height: 50vh;
+    }
+    #box2 {
+        width: 75%;
+        height: 100%;
+    }
+    #phone {
+        margin-bottom: 5%;
+    }
+    #text1 {
+        font-size: 10px;
+    }
+    #text {
+        font-size: 10px;
+        margin-bottom: 0%;
+        margin-left: 2%;
+    }
+    #bigtext {
+        font-size: 60px;
+    }
+    #copyright {
+        font-size: 6px;
+    }
 }

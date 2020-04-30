@@ -22,7 +22,7 @@
     "gmail-send": "^1.8.10",
     "googleapis": "^39.2.0",
     "imap": "^0.8.19",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "ng-gapi": "0.0.73",
     "ngx-alerts": "^3.4.5",
     "rxjs": "~6.4.0",
